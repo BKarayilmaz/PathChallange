@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PathChallange.API</name>
+    </assembly>
+    <members>
+        <member name="M:PathChallange.API.Controllers.AuthorityController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.AuthorityController.Post(PathChallange.Entities.Models.Authority)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.AuthorityController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.AuthorityController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.AuthorityController.Update(PathChallange.Entities.Models.Authority)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.OrdersController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.OrdersController.Post(PathChallange.Entities.Models.Orders)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.OrdersController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.OrdersController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.OrdersController.Update(PathChallange.Entities.Models.Orders)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductCategoryController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductCategoryController.Post(PathChallange.Entities.ProductCategory)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductCategoryController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductCategoryController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductCategoryController.Update(PathChallange.Entities.ProductCategory)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductsController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductsController.Post(PathChallange.Entities.Products)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductsController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductsController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ProductsController.Update(PathChallange.Entities.Products)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ShippingCompanyController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ShippingCompanyController.Post(PathChallange.Entities.Models.ShippingCompany)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ShippingCompanyController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ShippingCompanyController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.ShippingCompanyController.Update(PathChallange.Entities.Models.ShippingCompany)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.UsersController.Get">
+            <summary>
+            Get All Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.UsersController.Post(PathChallange.Entities.Models.Users)">
+            <summary>
+            Create New Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.UsersController.GetById(System.Int32)">
+            <summary>
+            Get Data By ID
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.UsersController.Remove(System.Int32)">
+            <summary>
+            Remove Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PathChallange.API.Controllers.UsersController.Update(PathChallange.Entities.Models.Users)">
+            <summary>
+            Update Data
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

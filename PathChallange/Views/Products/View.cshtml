@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Add Product</h1>
+<div class="container">
+    <form id="AddProductForm" class="form-control">
+        <div class="form-group">
+            <label for="exampleInputPassword1">Shipping Company Name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+      
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<script>
+
+    $("#AddProductForm").submit(function (event) {
+        event.preventDefauşt();
+
+        $ajax({
+            url:"http://localhost:19085/api/ShippingCompany"
+            data: {
+                CompanyName
+            }
+        })
+    })
+</script>
